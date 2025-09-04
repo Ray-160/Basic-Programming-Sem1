@@ -10,7 +10,7 @@ int main(){
     
     for (int i=str.size()-1; i>=0; i--)
     {
-    	if (str[i] >= 'A' && str[i] <= 'Z')
+    	if (str[i]>='A' && str[i]<='Z')
     	{
     	 str[i]= str[i]+32;
     	}
