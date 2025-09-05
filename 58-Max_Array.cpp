@@ -5,11 +5,10 @@
 int main(){
  	int size;
  	int max=0;
+  int array[size];
  	
  	std::cout << "Enter Size Of Array: ";
  	std::cin >> size;
-
-  int array[size];
  	
  	for (int i= 1; i<=size; i++)
  	{
